@@ -66,7 +66,8 @@ export default function App() {
                     justify="between"
                     align="center"
                     px="6"
-                    py="4"
+                    pt="4"
+                    mb="-5"
                 >
                     <Heading size="4">Gabriel</Heading>
 
@@ -97,7 +98,6 @@ export default function App() {
                     justify="center"
                     gap="4"
                     px="6"
-                    py="9"
                 >
                     <Heading size="8" align="center">
                         Full-Stack Software Engineer
@@ -135,7 +135,7 @@ export default function App() {
                         <Card>
                             <Flex direction="column" gap="3">
                                 <Heading size="4">Chatbot</Heading>
-                                <img src={getAppearance() === "dark" ? chatbotDarkScreenshotURL : chatbotLightScreenshotURL} width={windowWidth < 720 ? "auto" : 720} />
+                                <img src={getAppearance() === "dark" ? chatbotDarkScreenshotURL : chatbotLightScreenshotURL} width={windowWidth < 360 ? "auto" : 360} />
                                 <Text size="3" color="gray">
                                     Full-stack AI personal assistant web app with real-time chat, message editing, and file uploads.
                                 </Text>
@@ -235,7 +235,8 @@ export default function App() {
                     align="center"
                     gap="3"
                     px="6"
-                    py="6"
+                    pb="6"
+                    mt="-5"
                 >
                     <Text size="2" color="gray">
                         Get in touch

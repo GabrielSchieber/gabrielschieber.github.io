@@ -67,7 +67,7 @@ export default function App() {
                     pt="4"
                     mb="-5"
                 >
-                    <Heading size="4">Gabriel</Heading>
+                    <Heading size="4">Gabriel Schieber</Heading>
 
                     <Flex gap="4" style={{ alignItems: "center" }}>
                         <Link href="#projects">Projects</Link>

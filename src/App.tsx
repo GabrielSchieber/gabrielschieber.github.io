@@ -112,7 +112,7 @@ export default function App() {
 
                         <Button asChild size="3" variant="outline">
                             <a
-                                href="https://github.com/DimensionalArray"
+                                href="https://github.com/GabrielSchieber"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -153,7 +153,7 @@ export default function App() {
                             </Flex>
 
                             <Flex gap="3" mt="4">
-                                <Link href="https://github.com/DimensionalArray/Chatbot" style={{ display: "flex", gap: "4px", alignItems: "center" }}>
+                                <Link href="https://github.com/GabrielSchieber/Chatbot" style={{ display: "flex", gap: "4px", alignItems: "center" }}>
                                     <GitHubLogoIcon /> GitHub
                                 </Link>
                             </Flex>
@@ -241,7 +241,7 @@ export default function App() {
                             </Flex>
                         </Link>
 
-                        <Link href="https://github.com/DimensionalArray">
+                        <Link href="https://github.com/GabrielSchieber">
                             <Flex align="center" gap="1">
                                 <GitHubLogoIcon style={{ marginBottom: "2px" }} /> GitHub
                             </Flex>

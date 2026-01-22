@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my full-stack projects and skills.
 
-🔗 Live: https://dimensionalarray.github.io/Portfolio/
+🔗 Live: https://gabrielschieber.github.io
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="src/screenshots/portfolio_dark.png">

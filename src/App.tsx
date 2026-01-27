@@ -60,16 +60,17 @@ export default function App() {
         >
             <Flex direction="column" gap="9">
                 <Flex
-                    direction={windowWidth < 450 ? "column" : "row"}
+                    direction={windowWidth < 525 ? "column" : "row"}
                     justify="between"
                     align="center"
                     px="6"
                     pt="4"
                     mb="-5"
+                    gap="2"
                 >
-                    <Heading size="4">Gabriel Schieber</Heading>
+                    <Heading size="4" align="center">Gabriel Schieber</Heading>
 
-                    <Flex gap="4" style={{ alignItems: "center" }}>
+                    <Flex gap="4" wrap={windowWidth < 310 ? "wrap" : "nowrap"} align="center" justify="center">
                         <Link href="#projects">Projects</Link>
                         <Link href="#skills">Skills</Link>
                         <Link href="#about">About</Link>

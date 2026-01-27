@@ -68,7 +68,7 @@ export default function App() {
                     mb="-5"
                     gap="2"
                 >
-                    <Heading size="4" align="center">Gabriel Schieber</Heading>
+                    <Heading size="4" align="center" as="h1">Gabriel Schieber</Heading>
 
                     <Flex gap="4" wrap={windowWidth < 310 ? "wrap" : "nowrap"} align="center" justify="center">
                         <Link href="#projects">Projects</Link>
@@ -97,7 +97,7 @@ export default function App() {
                     gap="4"
                     px="6"
                 >
-                    <Heading size="8" align="center">
+                    <Heading size="8" align="center" as="h2">
                         Full-Stack Software Engineer
                     </Heading>
 
@@ -124,14 +124,14 @@ export default function App() {
                 </Flex>
 
                 <Box id="projects" px="6">
-                    <Heading size="6" mb="5">
+                    <Heading size="6" mb="5" as="h2">
                         Projects
                     </Heading>
 
                     <Grid columns={{ initial: "1" }} gap="5">
                         <Card>
                             <Flex direction="column" gap="3">
-                                <Heading size="4">Chatbot</Heading>
+                                <Heading size="4" as="h3">Chatbot</Heading>
                                 <img src={getAppearance() === "dark" ? chatbotDarkScreenshotURL : chatbotLightScreenshotURL} width={windowWidth < 360 ? "auto" : 360} />
                                 <Text size="3" color="gray">
                                     Full-stack AI personal assistant web app with real-time chat, message editing, and file uploads.
@@ -163,34 +163,34 @@ export default function App() {
                 </Box>
 
                 <Box id="skills" px="6">
-                    <Heading size="6" mb="5">
+                    <Heading size="6" mb="5" as="h2">
                         Skills
                     </Heading>
 
                     <Grid columns={{ initial: "1", sm: "2", md: "4" }} gap="4">
                         <Card>
-                            <Heading size="3">Backend</Heading>
+                            <Heading size="3" as="h3">Backend</Heading>
                             <Text size="2" color="gray" mt="2">
                                 Python, Django, Django REST Framework, WebSockets
                             </Text>
                         </Card>
 
                         <Card>
-                            <Heading size="3">Frontend</Heading>
+                            <Heading size="3" as="h3">Frontend</Heading>
                             <Text size="2" color="gray" mt="2">
                                 React, Vite, TypeScript, HTML, CSS
                             </Text>
                         </Card>
 
                         <Card>
-                            <Heading size="3">DevOps</Heading>
+                            <Heading size="3" as="h3">DevOps</Heading>
                             <Text size="2" color="gray" mt="2">
                                 Docker, Docker Compose, Dev Containers
                             </Text>
                         </Card>
 
                         <Card>
-                            <Heading size="3">Tools</Heading>
+                            <Heading size="3" as="h3">Tools</Heading>
                             <Text size="2" color="gray" mt="2">
                                 VS Code, Git, GitHub, Linux
                             </Text>
@@ -199,7 +199,7 @@ export default function App() {
                 </Box>
 
                 <Box id="about" px="6">
-                    <Heading size="6" mb="4">
+                    <Heading size="6" mb="4" as="h2">
                         About Me
                     </Heading>
 
